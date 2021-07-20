@@ -1,0 +1,597 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.screen {
+  width: 900px;
+}
+.container {
+  overflow: hidden;
+}
+/*------------Cabecera-------------*/
+/*---------------------------------*/
+
+.Cabecera {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li a {
+  margin-left: 35px;
+  list-style: none;
+}
+header {
+  height: 80px;
+  padding: 0px;
+}
+.i-header {
+  max-width: 1340px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  margin-right: 90px;
+  margin-top: 25px;
+  display: flex;
+  font-size: 18px;
+}
+li {
+  list-style: none;
+  margin-right: 40px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#logo {
+  width: 36px;
+  height: 36px;
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.nav-links ul li a:hover {
+  text-decoration: line-through;
+  color: rgb(9, 250, 210);
+}
+.mostrar-menu,
+.ocultar-menu {
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+.mostrar-menu:hover,
+.ocultar-menu:hover {
+  font-size: 14px;
+  transition: all 0.2s;
+}
+.mostrar-menu {
+  float: right;
+  line-height: 80px;
+}
+#chk {
+  position: absolute;
+  visibility: hidden;
+}
+/*----------Sección principal----------*/
+/*-------------------------------------*/
+#seccion1 {
+  height: 360px;
+}
+h1 {
+  font-family: Bahnschrift;
+  font-size: 64px;
+  font-weight: 200;
+  margin: 0px 0px 10px 150px;
+  padding-top: 100px;
+  letter-spacing: 0px;
+}
+#tachar {
+  text-decoration: line-through;
+}
+#punto {
+  color: blue;
+  font-size: 60px;
+  font-family: Bahnschrift;
+}
+#parrafito1 {
+  display: block;
+  width: 628px;
+  height: 48px;
+  margin: 0px 0px 56px 150px;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
+input {
+  margin: 0px 0px 0px 150px;
+  padding: 10px;
+  background: rgb(9, 250, 210);
+  border-color: rgb(9, 250, 210);
+  border: 10px;
+  width: 226px;
+  height: 56px;
+  font-size: 18px;
+}
+input:hover {
+  background-image: #25e9ff;
+  background-image: linear-gradient(93deg, #25e9ff 0%, #113bf7 100%);
+  color: white;
+  border-color: linear-gradient(to left, blue, rgb(4, 252, 252));
+}
+/*----------sección de episodios----------*/
+/*----------------------------------------*/
+#seccion2 {
+  height:980px;
+  background-color:blue;
+  margin-top: 0px;
+  clip-path: polygon(100% 0px, 100% 90%, 0% 100%, 0px 8%);
+
+}
+#seccion2 {
+  background-image: linear-gradient(to right, rgb(8, 8, 173), rgb(11, 11, 247));
+}
+#titulo2 {
+  color: white;
+  font-size: 48px;
+  width: 209px;
+  height: 62px;
+  margin: 0px 10px 76px 150px;
+  padding-top: 150px;
+}
+.audios {
+  margin-left: 80px;
+  
+}
+iframe {
+  width: 558px;
+  height: 300px;
+  padding-left: 60px;
+  justify-content: center;
+}
+   
+/*----------Sección de nosotrxs----------*/
+/*---------------------------------------*/
+#seccion3 {
+margin: -150px 0px 0px 0px;
+}
+.parte-iphone {
+  position: relative;
+  display: flex;
+}
+#iphone {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  margin: 0px 10px 0px 200px;
+}
+#titulo3 {
+  margin: 0px 0px 0px 62.4px;
+  padding-top: 150px;
+  font-size: 48px;
+  width: 399px;
+  height: 62px;
+}
+#parrafito2 {
+  display: block;
+  width: 464px;
+  height: 204px;
+  margin: 60px 10px 0px 62.4px;
+  
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
+#ppp2 {
+  width: 464px;
+  height: 204px;
+}
+/*----------Sección de entrevistas----------*/
+/*------------------------------------------*/
+#Entrevistas {
+  margin:0px;
+  padding:0px;
+}
+#titulo4 {
+  font-size: 48px;
+  width: 100%;
+  height: 62px;
+  margin: 0px 400px 36px 120px;
+  padding:50px;
+}
+#invitadas {
+  width: 100%;
+}
+.mujeres {
+  width: 33.3333%;
+  height: 364px;
+  padding: 0px;
+  margin: -2px -3.5px;
+}
+/*----------Sección de tópicos----------*/
+/*--------------------------------------*/
+#titulo5 {
+  font-size: 48px;
+  margin: 0px 500px 0pxpx 120px;
+  padding: 50px;
+}
+#icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.iconos {
+  width: 104px;
+  height: 104px;
+  margin-right: 45px;
+}
+.ico32 {
+  width: 220px;
+  height: 32px;
+  font-size: 24px;
+  text-align: center;
+  font-family: Bahnschrift;
+  padding: 0px;
+  margin-right: 40px;
+}
+.ico {
+  width: 220px;
+  height: 64px;
+  font-size: 24px;
+  font-family: Bahnschrift;
+  text-align: center;
+  margin-right: 40px;
+}
+/*----------Sección de footer----------*/
+/*-------------------------------------*/
+.parte3 {
+  background-color: blue;
+  height: 450px;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  clip-path: polygon(100% 0px, 100% 750px, 0% 100%, 0px 20.5%);
+}
+#titulo6 {
+  position: relative;
+  margin: 0px auto;
+  padding: 180px 0px 0px 0px;
+  color: white;
+  font-size: 48px;
+  width: 692px;
+  height: 62px;
+}
+.boton3 {
+  width: 345px;
+  height: 56px;
+  font-size: 18px;
+  margin: 100px 10px 10px 550px;
+}
+
+footer {
+  display: flex;
+  justify-content:space-between;
+  height: 70px;
+}
+.localidad {
+  font-size: 16px;
+  padding:27px;
+  margin-left: 80px;
+}
+.social {
+  font-size: 20px;
+  color: black;
+  margin-top: 100px;
+  line-height: 65px;
+  padding-right: 80px;
+  padding-top: 27px;
+}
+.social:hover {
+  font-size: 30px;
+  color:#4cd137;
+}
+a:nth-child(2):hover{
+  font-size: 30px;
+  color: #d53369; 
+  color: -webkit-linear-gradient(to right, #d53369, #cbad6d); 
+  color: linear-gradient(to right, #d53369, #cbad6d);
+
+}
+a:nth-child(3):hover {
+  font-size: 30px;
+  color: #48dbfb;
+}
+a:nth-child(4):hover {
+  font-size: 30px;
+  color: #0652DD;
+}
+a:nth-child(5):hover {
+  font-size: 30px;
+  color: #00a8ff;
+}
+
+/*-------------Media query-------------*/
+/*-------------------------------------*/
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+    overflow-y: hidden;
+  }
+/*------------Cabecera-------------*/
+/*---------------------------------*/
+  header {
+    height: 60px;
+    padding: 0 0px;
+  }
+  #logo {
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 15px 20px;
+    padding: 0px;
+  }
+  .mostrar-menu,
+  .ocultar-menu {
+    display: block;
+  }
+  .nav-links ul {
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    background-color: blue;
+    margin: 35px 0px 20px 0px;
+    right: 100%;
+    line-height: 90%;
+    padding-top: 35px;
+    flex-direction: column;
+    transition: all 0.2s;
+  }
+  .nav-links ul li {
+    padding: 0px 0px 30px 20px;
+  }
+  .nav-links ul li a {
+    color: white;
+    font-size: 16px;
+  }
+  .nav-links ul li a:hover {
+    text-decoration: line-through;
+    color: rgb(9, 250, 210);
+  }
+  .ocultar-menu {
+    display: block;
+    position: absolute;
+    top: -50px;
+    right: 11px;
+    background-color: white;
+    padding: 10px;
+  }
+  .mostrar-menu {
+    position: absolute;
+    top: -10px;
+    right: 13px;
+    color: black;
+    width: 18px;
+  }
+  #chk:checked ~ .nav-links ul {
+    right: 0px;
+  }
+/*----------Sección principal----------*/
+/*-------------------------------------*/
+  #seccion1 {
+    height: 330px;
+  }
+  h1 {
+    font-family: Bahnschrift;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0px 0px 0px 20px;
+    padding-top: 60px;
+    letter-spacing: 0px;
+  }
+  #tachar {
+    text-decoration: line-through;
+    font-weight: 100;
+  }
+  #punto {
+    color: black;
+    font-size: 36px;
+    font-family: Bahnschrift;
+    font-weight: 400;
+  }
+  #parrafito1 {
+    display: block;
+    width: 360px;
+    height: 66px;
+    margin: 6px 0px 16px 20px;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  input {
+    margin:0px 15px;
+    background: rgb(9, 250, 210);
+    border-color: rgb(9, 250, 210);
+    border: 10px;
+    width: 350px;
+    height: 48px;
+    font-size: 16px;
+  }
+/*----------sección de episodios----------*/
+/*----------------------------------------*/
+  #seccion2 {
+    height:1270px;
+    background-color:blue;
+    clip-path: polygon(100% 0px, 100% 96.5%, 0% 100%, 0px 3.5%);
+  }
+  #seccion2 {
+    background-image: linear-gradient(to right, rgb(8, 8, 173), rgb(11, 11, 247));
+  }
+  #titulo2 {
+    color: white;
+    font-size: 36px;
+    width: 157px;
+    height: 42px;
+    margin: 0px 1px 60px 20px;
+    padding-top: 80px;
+  }
+  .audios {
+    margin-left: 15px;
+    
+  }
+  iframe {
+    width: 350px;
+    height: 300px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .iframe2pc {
+    margin-top: -50px;
+  }
+  .iframe3pc{
+    margin-top: -50px;
+  }
+  .iframe4pc{
+    margin-top: -50px;
+  }
+/*----------Sección de nosotrxs----------*/
+/*---------------------------------------*/
+  #seccion3 {
+    height: 920px;
+  }
+  .parte-iphone {
+    position: relative;
+    display: block;
+  }
+  #iphone {
+    position: relative;
+    width: 360px;
+    height: 519px;
+    margin: 50px 10px 10px 10px;
+  }
+  #titulo3 {
+    margin: 0px 16px 0px 20px;
+    padding-top: 10px;
+    font-size: 36px;
+    width: 340px;
+    height: 50px;
+  }
+  #parrafito2 {
+    display: block;
+    width: 360px;
+    height: 254px;
+    margin: 10px 20px 10px 20px;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #ppp2 {
+    width: 360px;
+    height: 200px;
+  }
+/*----------Sección de entrevistas----------*/
+/*------------------------------------------*/
+  #titulo4 {
+    font-size: 36px;
+    margin: 0px 20px 50px 20px;
+    padding-top: 30px;
+    width: 360px;
+    height: 50px;
+  }
+  #invitadas {
+    width: 100%;
+  }
+  .mujeres {
+    width: 100%;
+    height: 260px;
+    padding: 0px;
+    margin: -1.9px 0px;
+  }
+/*----------Sección de tópicos----------*/
+/*--------------------------------------*/
+  #ultimo {
+    display: block;
+  }
+  #titulo5 {
+    font-size: 36px;
+    width: 360px;
+    height: 84px;
+    margin: 0px 20px 60px 20px;
+  }
+  #icon {
+    display: block;
+    margin-left: 47px;
+  }
+  .tit {
+    margin-left:35px;
+  }
+  .parte3 {
+    background-color: blue;
+    height: 350px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    clip-path: polygon(100% 0px, 100% 750px, 0% 100%, 0px 10%);
+  }
+  #titulo6 {
+    position: relative;
+    margin: 0px;
+    padding:90px;
+    color: white;
+    font-size: 36px;
+    width: 360px;
+    height: 126px;
+    text-align: center;
+  }
+  .boton3 {
+    width: 340px;
+    height: 48px;
+    font-size: 16px;
+    margin: 80px 20px 10px 20px;
+  }
+/*----------Sección de footer----------*/
+/*-------------------------------------*/
+  footer {
+    display: block;
+    flex-direction: column;
+    height: 140px;
+  }
+  .localidad {
+    width:250px;
+    font-size: 16px;
+    padding-top:20px;
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+  .social {
+    margin-left: 43px;
+    padding:0px;
+    }
+    .social {
+      font-size: 20px;
+      color:#4cd137;
+    }
+    a:nth-child(2){
+      font-size: 20px;
+      color: #d53369; 
+      color: -webkit-linear-gradient(to right, #d53369, #cbad6d); 
+      color: linear-gradient(to right, #d53369, #cbad6d);
+    
+    }
+    a:nth-child(3) {
+      font-size: 20px;
+      color: #48dbfb;
+    }
+    a:nth-child(4) {
+      font-size: 20px;
+      color: #0652DD;
+    }
+    a:nth-child(5) {
+      font-size: 20px;
+      color: #00a8ff;
+    }
+}
